@@ -1,18 +1,13 @@
-# Kouxing2000 Tap
+# kouxing2000/tap
 
-## How do I install these formulae?
+Homebrew casks for [Hammerdeck](https://hammerdeck.peach-studio.com/), a
+keyboard-driven window manager and automation platform for macOS.
 
-`brew install kouxing2000/tap/<formula>`
-
-Or `brew tap kouxing2000/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "kouxing2000/tap"
-brew "<formula>"
+```sh
+brew install --cask kouxing2000/tap/hammerdeck
 ```
 
-## Documentation
+Hammerdeck updates itself (Sparkle), so `brew upgrade` skips it; the cask
+version here only decides what a fresh install downloads.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Source and issues: https://github.com/kouxing2000/hammerdeck
