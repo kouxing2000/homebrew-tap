@@ -1,6 +1,6 @@
 cask "hammerdeck" do
-  version "0.2.3"
-  sha256 "820f73cb93f1dc1024dd065d5d14e232236634d44202efcff65f33768615480d"
+  version "0.3.0"
+  sha256 "dd5ec0484c60cd8f2473a3b7257e2a133e7eb1bf0844a2b1aeccae81ddaf5e28"
 
   url "https://github.com/kouxing2000/hammerdeck/releases/download/v#{version}/Hammerdeck-#{version}.dmg"
   name "Hammerdeck"
